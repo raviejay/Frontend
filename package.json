@@ -1,0 +1,23 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend application using Electron with integration of OpenAI Api and Supabase",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raviejay/Frontend.git"
+  },
+  "author": "Ravie jay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raviejay/Frontend/issues"
+  },
+  "homepage": "https://github.com/raviejay/Frontend#readme",
+  "devDependencies": {
+    "electron": "^24.1.3"
+  }
+}
