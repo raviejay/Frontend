@@ -10,12 +10,24 @@
       http-equiv="X-Content-Security-Policy"
       content="default-src 'self'; script-src 'self'"
     />
-    <title>Hello from Electron renderer!</title>
+    <title>Secret Recipe</title>
   </head>
   <body>
-    <h1>Hello from Electron renderer!</h1>
-    <p>👋</p>
-    <p id="info"></p>
+    <h1>SECRET RECIPE</h1>
+  
+    <div>
+      <form id ="Raw_recipe">
+        <label for ="sentence">Make a Recipe:</label><br>
+        <textarea name="sentence" rows="20"></textarea><br>
+        <input type="submit" value ="Submit"><br>
+      </form>
+      <br>
+      <div>
+        <label for="Full_recipe">Secret Recipe</label><br>
+        <textarea id="Full_recipe" rows="30" readonly ></textarea>
+      </div>
+
+    </div>
   </body>
   <script src="./js/render.js"></script>
 </html>
